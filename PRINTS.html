@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Print Â· Reserva de Sala</title>
+<link rel="stylesheet" href="prints.css">
+<style>.tb{background:#4f46e5}.btn.main{background:#4f46e5}</style>
+</head>
+<body>
+<div class="topo">
+  <h1>Reserva de Sala</h1>
+  <span>Olhe as telas. Monte parecido. Nao precisa pixel-perfect.</span>
+</div>
+<div class="grid">
+  <div class="bloco">
+    <h2>1 Â· Lista</h2>
+    <div class="fone">
+      <div class="tb"><span>Reserva de Sala</span><span style="font-weight:600;font-size:0.8rem;">sair</span></div>
+      <div class="pad">
+        <div class="item"><div><strong>Lab 1 10:00-11:00</strong><div class="muted">livre</div></div><span class="badge ok">+</span></div>
+        <div class="item"><div><strong>Lab 1 11:00-12:00</strong><div class="muted">ocupado</div></div><span class="badge ok">+</span></div>
+        <div class="item"><div><strong>Lab 2 10:00-11:00</strong><div class="muted">livre</div></div><span class="badge ok">+</span></div>
+        <div class="item"><div><strong>Auditorio 14:00</strong><div class="muted">livre</div></div><span class="badge ok">+</span></div>
+        <div class="item"><div><strong>Sala maker 15:00</strong><div class="muted">ocupado</div></div><span class="badge ok">+</span></div>
+        <button class="btn main">Continuar</button>
+      </div>
+    </div>
+  </div>
+  <div class="bloco">
+    <h2>2 Â· Regra</h2>
+    <div class="fone">
+      <div class="tb"><span>Reserva de Sala</span><span style="font-weight:600;font-size:0.8rem;">voltar</span></div>
+      <div class="pad">
+        <div class="item"><div><strong>Lab 1 11:00-12:00</strong><div><span class="badge bad">ocupado</span></div></div></div><div class="aviso erro">Conflito de horario — escolha outro slot</div><div class="item"><div><strong>Lab 2 10:00-11:00</strong><div><span class="badge ok">livre</span></div></div><button class="btn main" style="width:auto;padding:6px 10px;margin:0;font-size:0.75rem;">Reservar</button></div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
